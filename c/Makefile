@@ -12,7 +12,7 @@ dump:
 	hexdump -C compiled/main
 
 run:
-	mkdir compiled
+	mkdir -p compiled
 	make ll
 	make asm
 	make obj
